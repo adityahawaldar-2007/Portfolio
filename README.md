@@ -1,2 +1,2 @@
 # Portfolio
-I tried to make a simple portfolio pf myself.
+I tried to make a simple portfolio for myself.
