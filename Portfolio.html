@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hawaldar Aditya Bandappa | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to right,#1f1c2c,#928dab);
+color:#fff;
+}
+
+header{
+background:rgba(10,61,98,0.9);
+padding:20px 0;
+position:sticky;
+top:0;
+z-index:999;
+backdrop-filter:blur(8px);
+box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:600;
+font-size:16px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#fc1313;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:30px 20px;
+}
+
+.section{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border-radius:16px;
+padding:35px;
+margin:40px 0;
+box-shadow:0 12px 30px rgba(0,0,0,0.25);
+border-bottom:3px solid greenyellow;
+}
+
+.section:hover{
+transform:translateY(-4px);
+}
+
+#welcome h1{
+text-align:center;
+font-size:40px;
+color:#489e7a;
+}
+
+#intro{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+margin-top:25px;
+align-items:center;
+justify-content:center;
+}
+
+#profile-img img{
+width:260px;
+height:280px;
+object-fit:cover;
+border-radius:800px;
+border:3px solid greenyellow;
+box-shadow:0 8px 24px rgba(0,0,0,0.4);
+}
+
+#info h2{
+font-size:30px;
+color:#00d2d3;
+}
+
+#info p{
+font-size:17px;
+margin-top:10px;
+color:#eee;
+line-height:1.8;
+}
+
+h2.section-title{
+font-size:28px;
+text-align:center;
+color:#48dbfb;
+margin-bottom:25px;
+}
+
+ul.custom-list li{
+padding:10px 0;
+color:#ddd;
+line-height:1.6;
+}
+
+.skills img{
+width:90px;
+height:90px;
+border-radius:12px;
+margin:12px;
+transition:0.3s;
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+}
+
+.skills img:hover{
+transform:scale(1.1);
+}
+
+.projects h3{
+font-size:22px;
+color:#feca57;
+}
+
+.projects p{
+margin-bottom:18px;
+color:#ccc;
+}
+
+.contact li{
+text-align:center;
+font-size:17px;
+padding:6px 0;
+color:#eee;
+list-style:none;
+}
+
+.social ul{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+padding:0;
+}
+
+.social li{
+list-style:none;
+}
+
+.social a{
+text-decoration:none;
+}
+
+.social i{
+font-size:22px;
+background:white;
+color:#0a3d62;
+padding:12px;
+border-radius:50%;
+width:48px;
+height:48px;
+display:flex;
+justify-content:center;
+align-items:center;
+transition:0.3s;
+}
+
+.social i:hover{
+background:#e71212;
+color:#000;
+transform:scale(1.15);
+}
+
+footer{
+background:rgba(10,61,98,0.9);
+color:#bbb;
+padding:18px;
+text-align:center;
+font-size:15px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+#intro{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#welcome">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<div class="section" id="welcome">
+<h1>Welcome To My Portfolio</h1>
+</div>
+
+<div class="section" id="intro">
+
+<div id="info">
+<h2>Hello</h2>
+
+<p>
+My Name is Hawaldar Aditya Bandappa. I have completed my Diploma in Computer Engineering and have strong interest in software development. I know programming languages such as C, C++, Java, and web technologies like HTML, CSS, and JavaScript. My goal is to become a successful software developer and contribute to meaningful projects.
+</p>
+
+</div>
+
+<div id="profile-img">
+<img src="./asset/aditya.jpg">
+</div>
+
+</div>
+
+<div class="section" id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<ul class="custom-list">
+
+<li><strong>Name:</strong> Hawaldar Aditya Bandappa</li>
+<li><strong>Education:</strong> Diploma in Computer Engineering</li>
+<li><strong>Programming Languages:</strong> C, C++, Java</li>
+<li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+<li><strong>Tools:</strong> VS Code</li>
+<li><strong>Experience:</strong> Created websites like AgriHub, Portfolio and Swiggy clone</li>
+<li><strong>Soft Skills:</strong> Communication, Teamwork, Time Management</li>
+<li><strong>Languages:</strong> English, Marathi, Hindi</li>
+<li><strong>Goal:</strong> Become a software developer</li>
+
+</ul>
+
+</div>
+
+<div class="section skills" id="skills">
+
+<h2 class="section-title">My Skills</h2>
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;">
+
+<img src="./asset/html.png">
+<img src="./asset/css.png">
+<img src="./asset/js.png">
+<img src="./asset/c.png">
+<img src="./asset/c++.png">
+<img src="./asset/java.webp">
+<img src="./asset/python.png">
+
+</div>
+
+</div>
+
+<div class="section projects" id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<h3>1. AgriHub - Smart Agriculture Platform</h3>
+<p>Developed using HTML, CSS, JS and SpringBoot.</p>
+
+<h3>2. Personal Portfolio Website</h3>
+<p>Created using HTML and CSS.</p>
+
+<h3>3. Swiggy Web Page</h3>
+<p>Swiggy homepage clone using HTML and CSS.</p>
+
+<h3>4. Simple Calculator (Java)</h3>
+<p>GUI calculator using Java Swing.</p>
+
+</div>
+
+<div class="section contact" id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<ul>
+
+<li><strong>Email:</strong> adityahawaldar357@gmail.com</li>
+<li><strong>Phone:</strong> +91 9325068266</li>
+
+</ul>
+
+</div>
+
+<div class="section social">
+
+<h2 class="section-title">Social Links</h2>
+
+<ul>
+
+<li>
+<a href="https://github.com/adityahawaldar-2007" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/in/aditya-hawaldar-220178350/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+<p>Thank You For Visiting My Portfolio</p>
+</footer>
+
+</body>
+</html>
